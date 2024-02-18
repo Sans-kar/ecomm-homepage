@@ -21,7 +21,7 @@ function App() {
   
   return (
     <div className="wrapper">
-      <h1>Application</h1>
+{/*       <h1>Application</h1> */}
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home></Home>}>
